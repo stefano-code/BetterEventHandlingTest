@@ -6,22 +6,18 @@
 
 #include <windows.h>
 
-
-namespace Technogym
+namespace Reusable
 {
-	namespace Reusable
-	{
-		class CriticalSection ;
+	class CriticalSection ;
 
-		class CriticalSectionLock
-		{
-		public :
-			CriticalSectionLock( CriticalSection& s ) ;
-			~CriticalSectionLock() ;
-		private :
-			CriticalSection& section ;
-		} ;
-	}
+	class CriticalSectionLock
+	{
+	public :
+		CriticalSectionLock( CriticalSection& s ) ;
+		~CriticalSectionLock() ;
+	private :
+		CriticalSection& section ;
+	} ;
 }
 
 #endif

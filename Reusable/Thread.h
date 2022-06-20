@@ -3,27 +3,22 @@
 #define THREAD_
 #include <Windows.h>
 
-
-namespace Technogym
+namespace Reusable
 {
-	namespace Reusable
+	class Thread
 	{
-		class Thread
-		{
-		private:
-			static DWORD WINAPI ThreadBoot(LPVOID);
-			HANDLE hThread;
-		protected:
-			virtual void Main(void);
-		public:
-			Thread();
-			~Thread();
-			virtual DWORD Run(void);
-		//##	virtual DWORD Kill(void);
-			bool WaitForTermination( int timeout ) ;
-		};
-
-	}
+	private:
+		static DWORD WINAPI ThreadBoot(LPVOID);
+		HANDLE hThread;
+	protected:
+		virtual void Main(void);
+	public:
+		Thread();
+		~Thread();
+		virtual DWORD Run(void);
+	//##	virtual DWORD Kill(void);
+		bool WaitForTermination( int timeout ) ;
+	};
 }
 
 #endif

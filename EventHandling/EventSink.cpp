@@ -8,8 +8,8 @@
 
 
 using namespace std ;
-using namespace Technogym::EventHandling ;
-using namespace Technogym::Reusable ;
+using namespace EventHandling ;
+using namespace Reusable ;
 
 
 EventSink :: ~EventSink()

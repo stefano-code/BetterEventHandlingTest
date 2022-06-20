@@ -3,9 +3,7 @@
 #include "CE_Assert.h" 
 #include "CriticalSection.h"
 
-
-using namespace Technogym::Reusable ;
-
+using namespace Reusable ;
 
 CriticalSection :: CriticalSection()
 {

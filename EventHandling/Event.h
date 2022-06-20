@@ -10,22 +10,19 @@
 #include "Tag.h"
 #include <string>
 
-namespace Technogym
+namespace EventHandling
 {
-	namespace EventHandling
+	class Event
 	{
-		class Event
-		{
-		public :
-			Event( Tag t ) ;
-			virtual ~Event() ;
-			Tag GetTag() const ;
-			virtual Event* Clone() const = 0 ;
-			virtual std::string SerializeOut() const = 0;
-		private :
-			Tag tag ;
-		} ;
-	}
+	public :
+		Event( Tag t ) ;
+		virtual ~Event() ;
+		Tag GetTag() const ;
+		virtual Event* Clone() const = 0 ;
+		virtual std::string SerializeOut() const = 0;
+	private :
+		Tag tag ;
+	} ;
 }
 
 #endif

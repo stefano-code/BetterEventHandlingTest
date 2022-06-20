@@ -8,15 +8,11 @@
 
 #include <queue>
 
-
-namespace Technogym
+namespace EventHandling
 {
-	namespace EventHandling
-	{
-		class Event ;
+	class Event ;
 
-		typedef std::queue< Event* > EventQueue ;
-	}
+	typedef std::queue< Event* > EventQueue ;
 }
 
 #endif

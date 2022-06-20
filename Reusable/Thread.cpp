@@ -3,8 +3,7 @@
 #include "Thread.h"
 
 
-using namespace Technogym::Reusable ;
-
+using namespace Reusable ;
 
 
 Thread::Thread()

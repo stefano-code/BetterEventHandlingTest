@@ -4,7 +4,7 @@
 #include "..\Reusable\CE_Assert.h" 
 #include "Event.h"
 
-using namespace Technogym::EventHandling ;
+using namespace EventHandling ;
 
 Event :: Event( Tag t ) : tag( t )
 {

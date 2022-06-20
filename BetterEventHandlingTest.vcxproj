@@ -152,6 +152,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EventHandling\Event.h" />
+    <ClInclude Include="EventHandling\EventQueue.h" />
     <ClInclude Include="EventHandling\EventSink.h" />
     <ClInclude Include="EventHandling\EventSource.h" />
     <ClInclude Include="EventHandling\Invoker.h" />

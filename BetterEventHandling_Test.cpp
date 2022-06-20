@@ -5,15 +5,15 @@
 #include <windows.h>
 #include <iostream>
 #include <memory>
-#include "..\..\..\..\Reusable\thread.h"
+#include ".\Reusable\Thread.h"
 #include ".\EventHandling\EventSource.h"
 #include ".\EventHandling\EventSink.h"
 #include ".\EventHandling\SimpleEvent.h"
 
 
 using namespace std ;
-using namespace Technogym::EventHandling ;
-using namespace Technogym::Reusable ;
+using namespace EventHandling ;
+using namespace Reusable ;
 
 EventSource gui ;
 Tag tag10 = 10 ;

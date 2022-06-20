@@ -4,9 +4,7 @@
 #include "CriticalSectionLock.h"
 #include "CriticalSection.h"
 
-
-using namespace Technogym::Reusable ;
-
+using namespace Reusable ;
 
 CriticalSectionLock :: CriticalSectionLock( CriticalSection& s ) :
 section( s)

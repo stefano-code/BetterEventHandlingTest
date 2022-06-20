@@ -4,11 +4,8 @@
 
 #define INVOKER_
 
-
-namespace Technogym
+namespace EventHandling
 {
-	namespace EventHandling
-	{
   class Event ;
 
   class Invoker
@@ -37,7 +34,6 @@ namespace Technogym
       T1* sink ;
       HandlingFunction f ;
     } ;
-  }
 }
 
 #endif

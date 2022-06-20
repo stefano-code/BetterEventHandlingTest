@@ -8,7 +8,7 @@
 
 
 using namespace std ;
-using namespace Technogym::EventHandling ;
+using namespace EventHandling ;
 
 void EventSource :: Subscribe( Tag t, EventSink* s )
 {

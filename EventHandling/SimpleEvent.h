@@ -6,19 +6,15 @@
 
 #include "Event.h"
 
-
-namespace Technogym
+namespace EventHandling
 {
-	namespace EventHandling
+	class SimpleEvent : public Event
 	{
-		class SimpleEvent : public Event
-		{
-		public :
-			SimpleEvent( Tag t ) ;
-			virtual Event* Clone() const ;
-			virtual std::string SerializeOut() const;
-		} ;
-	}
+	public :
+		SimpleEvent( Tag t ) ;
+		virtual Event* Clone() const ;
+		virtual std::string SerializeOut() const;
+	} ;
 }
 
 #endif

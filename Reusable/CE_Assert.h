@@ -2,16 +2,10 @@
 #ifndef CE_ASSERT_
 #define CE_ASSERT_
 
-namespace Technogym
+namespace Reusable
 {
-	namespace Reusable
-	{
 	void AssertionViolation( const char* fileName, int lineNum ) ;
-	}
 }
-
-
-
 
 #ifdef RELEASE_MODE_
 	#define CE_ASSERT( cond ) 0 

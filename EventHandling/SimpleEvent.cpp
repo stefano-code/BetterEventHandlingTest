@@ -2,14 +2,12 @@
 
 #include "SimpleEvent.h"
 
-using namespace Technogym::EventHandling ;
-
+using namespace EventHandling ;
 
 SimpleEvent :: SimpleEvent( Tag t ) :
 Event( t )
 {
 }
-
 
 Event* SimpleEvent :: Clone() const
 {

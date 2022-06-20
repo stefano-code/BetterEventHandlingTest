@@ -4,12 +4,9 @@
 
 #define TAG_
 
-namespace Technogym
+namespace EventHandling
 {
-	namespace EventHandling
-	{
-		typedef unsigned int Tag ;
-	}
+	typedef unsigned int Tag ;
 }
 
 /*
